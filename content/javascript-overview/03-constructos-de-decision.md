@@ -1,8 +1,8 @@
-# Constructos de desición
+# Constructos de decisión
 
 En todos los lenguajes de programación existen los constructos de decisión. Estos nos permiten tomar decisiones en base a una condición.
 
-Estas condiciones pueden ser Verdaderas o Falsas. 
+Estas condiciones pueden ser Verdaderas o Falsas.
 
 ## Truthy y Falsy
 
@@ -10,19 +10,19 @@ En JavaScript, existen valores que son considerados como Verdaderos y otros que 
 
 La siguiente tabla puede ayudarte a entender como funciona esto:
 
-| Valor | ¿Es Verdadero? |
-| :-------------: | :------: |
-| undefined | Falso |
-| null | Falso |
-| 0 | Falso |
-| NaN | Falso |
-| "" | Falso |
-| ' ' | Verdadero |
-| 1 | Verdadero |
-| "Hola" | Verdadero |
-| [] | Verdadero |
-| {} | Verdadero |
-| function(){} | Verdadero |
+|    Valor    | ¿Es Verdadero? |
+| :----------: | :-------------: |
+|  undefined  |      Falso      |
+|     null     |      Falso      |
+|      0      |      Falso      |
+|     NaN     |      Falso      |
+|      ""      |      Falso      |
+|     ' '     |    Verdadero    |
+|      1      |    Verdadero    |
+|    "Hola"    |    Verdadero    |
+|      []      |    Verdadero    |
+|      {}      |    Verdadero    |
+| function(){} |    Verdadero    |
 
 ## Aplicación de los constructos de decisión
 
@@ -106,37 +106,35 @@ El switch es un constructor de decisión que se usa para ejecutar un bloque de c
 
 Los operadores de comparación se usan para comparar dos valores. Los operadores de comparación son los siguientes:
 
-|   Operación   | Símbolo |
-| :-------------: | :------: |
-|      Igual      |    ==    |
-|      No igual      |    !=    |
-| Estrictamente igual |    ===    |
-|    Estrictamente no igual    |    !==    |
-|     Mayor que     |    >    |
-|    Mayor o igual que    |    >=    |
-|     Menor que     |    <    |
-|    Menor o igual que     |    <=    |
-
+|       Operación       | Símbolo |
+| :--------------------: | :------: |
+|         Igual         |    ==    |
+|        No igual        |    !=    |
+|  Estrictamente igual  |   ===   |
+| Estrictamente no igual |   !==   |
+|       Mayor que       |    >    |
+|   Mayor o igual que   |    >=    |
+|       Menor que       |    <    |
+|   Menor o igual que   |    <=    |
 
 ## Operadores lógicos
 
 Los operadores lógicos se usan para combinar dos o más condiciones. Los operadores lógicos son los siguientes:
 
-|   Operación   | Símbolo |
-| :-------------: | :------: |
-|      Y      |    &&    |
-|      O      |    \|\|    |
+| Operación | Símbolo |
+| :--------: | :------: |
+|     Y     |    &&    |
+|     O     |   \|\|   |
 | Negación |    !    |
-
 
 ## Operadores ternarios
 
 Los operadores ternarios se usan para asignar un valor a una variable en base a una condición. Los operadores ternarios son los siguientes:
 
-|   Operación   | Símbolo |
-| :-------------: | :------: |
-|      Ternario      |    ?    |
-|      Ternario      |    :    |
+| Operación | Símbolo |
+| :--------: | :------: |
+|  Ternario  |    ?    |
+|  Ternario  |    :    |
 
 ### Ejemplo
 
@@ -146,5 +144,3 @@ Los operadores ternarios se usan para asignar un valor a una variable en base a 
 
     let c = a < b ? "a es menor que b" : "a es mayor que b";
 ```
-
-
