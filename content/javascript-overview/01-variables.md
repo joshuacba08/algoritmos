@@ -35,6 +35,7 @@ Ejemplo:
 ```javascript
     const PI = 3.1416;
 ```
+
 Quizás se pregunte por qué usar constantes en lugar de variables globales. La respuesta es que las constantes son más seguras. Si intenta actualizar una constante, JavaScript arrojará un error.
 
 ## Variable let
@@ -42,7 +43,6 @@ Quizás se pregunte por qué usar constantes en lugar de variables globales. La 
 La palabra clave let se usa para declarar variables locales. Las variables locales solo se pueden acceder desde el bloque de código donde se declararon.
 
 Además, las variables locales declaradas con let pueden actualizarse, pero no pueden redeclararse.
-
 
 ## Tipos de datos
 
@@ -57,6 +57,26 @@ Además, las variables locales declaradas con let pueden actualizarse, pero no p
     let h = null; // Null
 ```
 
+## Visualizar el valor de una variable por consola
 
+Si queremos ver el valor de cada variable que declaramos, podemos usar console.log para hacerlo, como se indica en el siguiente fragmento de código:
 
+```javascript
+    let a = 1; // Number
+    let b = "Hola"; // String
+    let c = true; // Boolean
+    let d = function() {}; // Function
+    let e = {}; // Object
+    let f = []; // Array
+    let g = undefined; // Undefined
+    let h = null; // Null
 
+    console.log(a);
+    console.log(b);
+    console.log(c);
+    console.log(d);
+    console.log(e);
+    console.log(f);
+    console.log(g);
+    console.log(h);
+```
