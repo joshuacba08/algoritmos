@@ -226,7 +226,7 @@ En lugar de usar un loop como el ciclo for, podríamos usar los métodos iterado
 
 Vamos a explicar qué hace el método sort. Este método recibe como parámetro una función de comparación. Esta función recibe dos parámetros que representan dos elementos de la lista. La función de comparación devuelve un número negativo si el primer elemento es menor que el segundo, un número positivo si el primer elemento es mayor que el segundo, y cero si ambos elementos son iguales.
 
-En este caso, la función de comparación recibe dos parámetros a y b. Si el orden es ascendente, la función devuelve la resta de a[prop] - b[prop]. Si el orden es descendente, la función devuelve la resta de b[prop] - a[prop].
+En este caso, la función de comparación recibe dos parámetros a y b. Si el orden es ascendente, la función devuelve la resta de `a[prop] - b[prop]`. Si el orden es descendente, la función devuelve la resta de `b[prop] - a[prop]`.
 
 
 
