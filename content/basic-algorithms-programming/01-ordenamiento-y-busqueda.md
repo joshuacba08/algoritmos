@@ -2,9 +2,9 @@
 
 ## Introducción
 
-En este documento se explica cómo implementar los métodos de ordenamiento y búsqueda. En un eComerce, es muy común que se implementen estos métodos para ordenar y buscar productos. Por ejemplo, se puede implementar un método de ordenamiento para ordenar los productos por precio. Además, se puede implementar un método de búsqueda para buscar un producto por nombre.
+En este documento se explica cómo implementar los métodos de ordenamiento y búsqueda. En un eCommerce, es muy común que se implementen estos métodos para ordenar y buscar productos. Por ejemplo, se puede implementar un método de ordenamiento para ordenar los productos por precio. Además, se puede implementar un método de búsqueda para buscar un producto por nombre.
 
-Es muy probable que hayas usado estos algorítmos en tu vida diaria. Por ejemplo, cuando buscas un producto en Mercado Libre, el sistema te muestra los productos que coinciden con tu búsqueda. Además, te permite ordenar los productos por precio, por relevancia, etc.
+Es muy probable que hayas usado estos algoritmos en tu vida diaria. Por ejemplo, cuando buscas un producto en Mercado Libre, el sistema te muestra los productos que coinciden con tu búsqueda. Además, te permite ordenar los productos por precio, por relevancia, etc.
 
 El objetivo es que el estudiante aprenda a implementar los métodos de ordenamiento y búsqueda usando lo visto hasta ahora sobre arreglos. Para ello, se explica cómo implementar los métodos de ordenamiento y búsqueda usando un ejemplo.
 
@@ -46,10 +46,9 @@ Es decir, debemos crear funciones que retornen un arreglo de productos ordenados
 
 Perfecto, hemos implementado los métodos de ordenamiento y búsqueda. Un ejercicio muy práctico sería intentar implementar los métodos de ordenamiento y búsqueda usando otros algoritmos. Por ejemplo, se puede implementar el método de ordenamiento por selección.
 
-
 ## Añadiendo un identificador a nuestro modelo de producto
 
-En el ejemplo anterior, hemos modelado la entidad Producto a través de un objeto. Sin embargo, es muy probable que necesitemos añadir un identificador a nuestro modelo de producto. Por ejemplo, si queremos almacenar los productos en una base de datos, necesitamos añadir un identificador a nuestro modelo de producto. 
+En el ejemplo anterior, hemos modelado la entidad Producto a través de un objeto. Sin embargo, es muy probable que necesitemos añadir un identificador a nuestro modelo de producto. Por ejemplo, si queremos almacenar los productos en una base de datos, necesitamos añadir un identificador a nuestro modelo de producto.
 
 A este tipo de propiedad se le conoce como id por sus siglas en inglés. A continuación se muestra un ejemplo de cómo añadir un identificador a nuestro modelo de producto:
 
@@ -161,6 +160,7 @@ Vamos a crear una función que busque un producto por su id. Esta función recib
         return productos.find(producto => producto.id === id);
     };
 ```
+
 De esta forma, el algoritmo de búsqueda por id queda encapsulado en una función. Esto nos permite reutilizar el algoritmo de búsqueda por id en cualquier parte del código.
 
 Es recomendable usar funciones para encapsular algoritmos. De esta forma, el código es más fácil de leer y de mantener. Además, se evita la repetición de código.
@@ -170,4 +170,3 @@ Es recomendable usar funciones para encapsular algoritmos. De esta forma, el có
 - Los métodos de ordenamiento y búsqueda son muy utilizados en el desarrollo de software.
 - Dominar los métodos de los arreglos es fundamental para trabajar con métodos de ordenamiento y búsqueda.
 - Podemos estar seguros de que los métodos que vimos son los mismos que se usan en las grandes compañías de desarrollo de software.
-
